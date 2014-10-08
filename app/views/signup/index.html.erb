@@ -1,0 +1,14 @@
+<h1>WELCOME TO THE HIVE</h1>
+<p>Find me in app/views/signup/index.html.erb</p>
+
+<%= image_tag("4.jpg",:width=>"50") %>
+
+<hr>
+<%= form_for :signup do |f| %>
+Username:<%= f.text_field :username %><br>
+mobile-phone:<%= f.text_field :mobile %><br>
+E-mail:<%= f.text_field :email %><br>
+Password:<%= f.password_field :password %><br>
+Password Confirm:<%= f.password_field :password_confirmation %><br>
+<%= f.submit :submit %>
+<% end %>

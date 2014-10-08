@@ -1,0 +1,3 @@
+== README ===
+
+Teaching a friend basic form creation with authentication using the 'devise' gem on ruby.
